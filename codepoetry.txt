@@ -1,0 +1,9 @@
+for(int i = 0; i < infinity; i++)
+{
+    deeper = 0;
+    answer = ask_question(i);
+    while(answer == FALSE)
+    {  
+        answer = ask_question(deeper++);
+    }
+}
